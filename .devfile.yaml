@@ -32,6 +32,8 @@ components:
     attributes:
       container-overrides:
         securityContext:
+          runAsUser: 1001
+          runAsGruop: 1001
           capabilities:
             add:
               - NET_ADMIN
